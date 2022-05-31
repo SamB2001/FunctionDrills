@@ -12,8 +12,10 @@
 */
 
 //CODE HERE
-
-
+function noPramas() {
+  console.log('Hello, World!')
+}
+// noPramas();
 ////////////////// PROBLEM 2 ////////////////////
 
 /*
@@ -21,8 +23,10 @@
 */
 
 //CODE HERE
-
-
+function jsNinja() {
+  console.log('I am a JavaScript ninja!')
+}
+jsNinja();
 ////////////////// PROBLEM 3 ////////////////////
 /*
   Create a function called printName which takes in a person's name and console logs it.
