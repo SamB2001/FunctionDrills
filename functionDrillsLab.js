@@ -23,10 +23,10 @@ function noPramas() {
 */
 
 //CODE HERE
-function jsNinja() {
-  console.log('I am a JavaScript ninja!')
-}
-// jsNinja();
+const jsNinja = () => console.log('I am a javascript ninja!') 
+//  jsNinja()
+
+
 ////////////////// PROBLEM 3 ////////////////////
 /*
   Create a function called printName which takes in a person's name and console logs it.
@@ -50,8 +50,10 @@ function printName(word) {
 */
 
 //CODE HERE
-
-
+function greeting(name) {
+  console.log(`Hello, ${name}`)
+}
+// greeting('Jake')
 ////////////////// PROBLEM 5 ////////////////////
 
 /*
@@ -64,8 +66,15 @@ function printName(word) {
 */
 
 //CODE HERE
-
-
+const compareNums = (num1 , num2) => {
+  if (num1 > num2) {
+    console.log (num1);
+  } else if (num1 < num2){
+    console.log(num2);
+  } else
+   console.log(num1)
+}
+compareNums(3, 1)
 ////////////////// PROBLEM 6 ////////////////////
 /*
   Create a function called add that takes in two parameters 
