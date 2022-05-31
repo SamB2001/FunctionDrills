@@ -166,8 +166,8 @@ function nameCheck(name){
     return 'Hey Bryan!'
   } else return (`Cool name, ${name}!`)
 }
-let nameGreeting = nameCheck('Jacob')
-console.log(nameGreeting)
+// let nameGreeting = nameCheck('Jacob')
+// console.log(nameGreeting)
 ////////////////// PROBLEM 11 ////////////////////
 /*
   Write a function called faveColorFinder that takes in one parameter called color (which will be a string).
@@ -179,8 +179,17 @@ console.log(nameGreeting)
 */
 
 //CODE HERE
-
-
+function faveColorFinder(color){
+  if (color === 'red'){
+    return 'Red is a great color'
+  } else if (color === 'green'){
+    return 'Green is a solid favorite color'
+  } else if (color === 'black'){
+    return 'So trendy'
+  } else return 'You need to evaluate your favorite color choice'
+}
+let colorRating = faveColorFinder('red')
+console.log(colorRating)
 ////////////////// PROBLEM 12 ////////////////////
 let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 /*
