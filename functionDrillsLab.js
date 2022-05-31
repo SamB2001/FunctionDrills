@@ -188,8 +188,8 @@ function faveColorFinder(color){
     return 'So trendy'
   } else return 'You need to evaluate your favorite color choice'
 }
-let colorRating = faveColorFinder('red')
-console.log(colorRating)
+// let colorRating = faveColorFinder('red')
+// console.log(colorRating)
 ////////////////// PROBLEM 12 ////////////////////
 let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 /*
@@ -199,8 +199,12 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 */
 
 //CODE HERE
-
-
+function printAllNames() {
+  for(i = 0; i < namesArr.length; i++){
+  console.log(namesArr[i])
+  }
+}
+printAllNames(namesArr)
 ////////////////// PROBLEM 13 ////////////////////
 /*
   Create a function called thatsOdd that takes in a single argument (a number).
