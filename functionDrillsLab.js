@@ -87,11 +87,10 @@ const compareNums = (num1 , num2) => {
 function add(num3, num4) {
   const convNum1 = parseInt(num3)
   const convNum2 = parseInt(num4)
-  console.log(convNum1 + convNum2)
+  return (convNum1 + convNum2)
   
 }
-// let sum = add()
-// add('2aa' , 3);
+// let sum = add('2aa', 3)
 // console.log(sum)
 ////////////////// PROBLEM 7 ////////////////////
 
@@ -121,7 +120,7 @@ const exclaimTwo = str => {
   return str.toUpperCase() + '!!!'
 }
 
- console.log('arrow')
+ //console.log('arrow')
 // console.log('declaration')
 // console.log('expression')
 
@@ -132,7 +131,7 @@ const exclaimTwo = str => {
   Brownie points if you use a template string
 */
 
-
+const exclaimThree = (str) => str.toUpperCase() + '!!!'
 
 ////////////////// PROBLEM 9 ////////////////////
 
@@ -146,7 +145,7 @@ function exclaimFour(str) {
 }
 
 // console.log('arrow')
-// console.log('declaration')
+ console.log('declaration')
 // console.log('expression')
 
 
