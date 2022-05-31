@@ -74,7 +74,7 @@ const compareNums = (num1 , num2) => {
   } else
    console.log(num1)
 }
-compareNums(3, 1)
+// compareNums(3, 1)
 ////////////////// PROBLEM 6 ////////////////////
 /*
   Create a function called add that takes in two parameters 
@@ -84,8 +84,15 @@ compareNums(3, 1)
 */
 
 //CODE HERE
-
-
+function add(num3, num4) {
+  const convNum1 = parseInt(num3)
+  const convNum2 = parseInt(num4)
+  console.log(convNum1 + convNum2)
+  
+}
+// let sum = add()
+// add('2aa' , 3);
+// console.log(sum)
 ////////////////// PROBLEM 7 ////////////////////
 
 /*
@@ -99,7 +106,7 @@ const exclaim = function(str) {
 
 // console.log('arrow')
 // console.log('declaration')
-// console.log('expression')
+ console.log('expression')
 
 
 
