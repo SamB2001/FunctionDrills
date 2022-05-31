@@ -26,7 +26,7 @@ function noPramas() {
 function jsNinja() {
   console.log('I am a JavaScript ninja!')
 }
-jsNinja();
+// jsNinja();
 ////////////////// PROBLEM 3 ////////////////////
 /*
   Create a function called printName which takes in a person's name and console logs it.
@@ -35,8 +35,10 @@ jsNinja();
 */
 
 //CODE HERE
-
-
+function printName(word) {
+  console.log(`${word}`)
+}
+// printName('Sam')
 ////////////////// PROBLEM 4 ////////////////////
 /*
   Create a function called greeting that
