@@ -204,7 +204,7 @@ function printAllNames() {
   console.log(namesArr[i])
   }
 }
-printAllNames(namesArr)
+// printAllNames(namesArr)
 ////////////////// PROBLEM 13 ////////////////////
 /*
   Create a function called thatsOdd that takes in a single argument (a number).
@@ -214,8 +214,13 @@ printAllNames(namesArr)
 */
 
 //CODE HERE
-
-
+function thatsOdd(number){
+  if (number % 2 === 0){
+    return "That's not odd!"
+  } else return 'That is odd indeed!'
+}
+let oddChecker = thatsOdd(3)
+console.log(oddChecker)
 ////////////////// PROBLEM 14 ////////////////////
 
 /*
